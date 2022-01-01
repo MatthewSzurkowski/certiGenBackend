@@ -1,12 +1,7 @@
 # CertiGen
-```js
-WIP: "Azure Blobs Connection"
-
-```
 <p align="center">
-<img src="./images/Banner.png">
+  <img src="https://i.imgur.com/my2aGQ9.png" alt="certiGen Banner">
 </p>
-
 
 # Installation & API
 
@@ -14,11 +9,16 @@ WIP: "Azure Blobs Connection"
 <hr/>
 
 1. Clone this repository.
-2. Install npm packages using `npm i`
+2. Install npm packages using `./getPacks.sh` (if this doesn't work, use <code>chmod +x getPacks.sh</code> and then <code>./getPacks.sh</code>)
 3. Run the server. `npm run devStart`
-4. Server starts running at port: 5000
-5. Go to Browser and run `localhost:5000`
-6. You will see the usage of API and Help on your browser.
+4. Server starts running at port: 5000 and React page on port: 3000
+6. Go to Browser and run `localhost:5000`. You will see the usage of API and Help on your browser.
+
+### Usage
+
+1. Enter the name of the event
+2. Enter the name of the ambassador running the event
+3. Enter the participants names (seperated by commas)
 
 ### API
 <hr/>
