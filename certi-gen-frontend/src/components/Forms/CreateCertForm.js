@@ -31,6 +31,13 @@ function CreateCertForm(){
         const participantsString= event.target.value;
         let participantsList = participantsString.split(',');
 
+        //remove whitespace from both ends
+        for (let i = 0; i < participantsList.length; i++){
+            let alterName = participantsList[i];
+            let result = alterName.trim();
+            participantsList[i] = result;
+        }
+
         setUserInput({
             ...userInput,
             participants: participantsList
@@ -57,6 +64,7 @@ function CreateCertForm(){
             config: { headers: {'Content-Type': 'multipart/form-data' }}
         })
         .then(function (response) {
+            alert("Success! Your request has been processed!");
             console.log(response.data);
         })
         .catch(function (response) {
