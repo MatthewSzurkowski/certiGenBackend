@@ -19,6 +19,7 @@
 1. Enter the name of the event
 2. Enter the name of the ambassador running the event
 3. Enter the participants names (seperated by commas)
+4. Check the certificates folder for your certificates 
 
 ### API
 <hr/>
