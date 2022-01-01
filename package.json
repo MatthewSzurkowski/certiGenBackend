@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart":  "concurrently \"nodemon server.js\" \"cd certi-gen-frontend && npm start\""
   },
   "author": "Abir Pal",
   "author_github": "https://github.com/imabp",
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "concurrently": "^6.5.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jimp": "^0.16.1",

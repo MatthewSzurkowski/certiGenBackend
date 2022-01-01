@@ -18,6 +18,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "author": "Matthew Szurkowski",
+  "author_github": "https://github.com/MatthewSzurkowski",
+  "author_linkedin": "https://www.linkedin.com/in/matthew-szurkowski/",
+  "author_email": "mszurkow@gmail.com",
+  "license": "ISC",
   "eslintConfig": {
     "extends": [
       "react-app",
