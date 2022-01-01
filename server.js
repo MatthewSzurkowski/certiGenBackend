@@ -11,6 +11,7 @@ const getMessage=`<center><h2> This is backend API for Certigen:</h2><h3> A Cert
 const app=express()
 app.use(express.raw())
 app.use(express.json())
+app.use(cors())
 
 app.use(express.urlencoded({
     extended: true
